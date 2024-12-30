@@ -54,6 +54,7 @@ padding: 100px;
     padding: 100px;
     background-color: #5bb471;
     color: #fff;
+    text-align: center;
 
 }
 
@@ -67,6 +68,6 @@ button {
     border: none;
 }
 
-.cta_button {
+.cta__button {
     padding: 10px 20px;
 }
