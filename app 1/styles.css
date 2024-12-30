@@ -40,3 +40,12 @@ padding: 100px;
 
 
 }
+
+.feature__title--selected {
+    text-decoration: underline;
+    
+}
+
+.feature__description {
+    
+}
