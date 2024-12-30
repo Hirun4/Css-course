@@ -49,3 +49,24 @@ padding: 100px;
 .feature__description {
     
 }
+
+.cta{
+    padding: 100px;
+    background-color: #5bb471;
+    color: #fff;
+
+}
+
+.cta__description {
+padding: 15px 0;
+color: #dbdbdb;
+}
+
+button {
+    color: none;
+    border: none;
+}
+
+.cta_button {
+    padding: 10px 20px;
+}
