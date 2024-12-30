@@ -8,5 +8,16 @@ body {
 }
 
 .hero {
-color: red;
+padding: 100px;
+}
+.hero__title {
+    color: black;
+}
+
+.hero__description {
+    color: #81da76;
+}
+
+.hero__highlight {
+    color: #dbfbe0;
 }
