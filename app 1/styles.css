@@ -97,4 +97,6 @@ button {
 
 .video__button {
     border: 1px solid #5bb471;
+    background: none;
+    padding: 10px 20px;
 }
