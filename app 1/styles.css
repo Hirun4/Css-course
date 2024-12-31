@@ -136,3 +136,32 @@ button {
 .programs__card-img {
     
 }
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 60px;
+    background-color: #f8f9fa;
+}
+
+.element__left {
+    flex: 1;
+}
+
+.element__right {
+    flex: 1;
+}
+
+.element__subtitle {
+    color: #5d5d5d;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.element__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
