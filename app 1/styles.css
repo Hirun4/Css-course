@@ -165,3 +165,26 @@ button {
     gap: 20px;
 }
 
+.element__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.element__list-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #e0e0e0;
+    color: #5d5d5d;
+}
+
+.element__list-item::before {
+    content: "->";
+    margin-right: 10px;
+    color: #34c749;
+}
+
+.element__form-group {
+    display: flex;
+    flex-direction: column;
+
+}
+
