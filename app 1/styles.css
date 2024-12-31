@@ -77,3 +77,24 @@ button {
     padding: 100px;
 
 }
+
+.video__title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.video__description{
+    margin-top: 10px;
+    font-weight: 300;
+    color: #6e6e6e;
+}
+
+.video__controls {
+    margin-top: 20px;
+
+
+}
+
+.video__button {
+    border: 1px solid #5bb471;
+}
