@@ -242,4 +242,6 @@ button {
     background-position: center;
     background-color: rgba(0, 0,0, 0.55);
     background-blend-mode: overlay;
+    text-align: center;
+    align-content: center;
 }
