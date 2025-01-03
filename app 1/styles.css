@@ -231,3 +231,15 @@ button {
 .element__button:hover {
     background-color: #2db14e;
 }
+
+
+/* final styling with images */
+
+.hero {
+    height: 50vh;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0,0, 0.55);
+    background-blend-mode: overlay;
+}
