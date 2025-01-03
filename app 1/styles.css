@@ -208,3 +208,26 @@ button {
     border-color: #23c93c;
     box-shadow: 0 0 0 2px rgba(52, 199, 89, 0.2);
 }
+
+.element__form-group select {
+    cursor: pointer;
+}
+
+.element__form-group option {
+    padding: 8px;
+}
+
+.element__button {
+    background-color: #34c749;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 1s;
+}
+
+.element__button:hover {
+    background-color: #2db14e;
+}
