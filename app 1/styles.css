@@ -266,3 +266,8 @@ button {
     height: 100%;
     object-fit: cover;
 }
+
+.cta__title {
+    font-size: 24px;
+    font-weight: 400;
+}
