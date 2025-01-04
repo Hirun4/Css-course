@@ -271,3 +271,28 @@ button {
     font-size: 24px;
     font-weight: 400;
 }
+
+.cta__button--primary:hover {
+background-color: #d0d0d0;
+cursor: pointer;
+}
+
+.video__button--primary {
+    color: black;
+}
+
+.video__button--primary:hover {
+    background-color: #5bb471;
+    color: white;
+    cursor: pointer;
+}
+
+.video__button--secondary {
+    color: black;
+}
+
+.video__button--secondary:hover {
+    background-color: #5bb471;
+    color: white;
+    cursor: pointer;
+}
