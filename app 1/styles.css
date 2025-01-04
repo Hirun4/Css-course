@@ -245,3 +245,24 @@ button {
     text-align: center;
     align-content: center;
 }
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.feature__container {
+    flex-basis: 50%;
+}
+
+.feature__image__container {
+    flex-basis: 50%;
+}
+
+.feature__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
