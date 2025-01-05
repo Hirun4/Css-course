@@ -325,3 +325,9 @@ cursor: pointer;
     object-fit: cover;
     border-radius: 15px;
 }
+
+.programs__card-description {
+    color: #6e6e6e;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
