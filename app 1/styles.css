@@ -331,3 +331,13 @@ cursor: pointer;
     font-weight: 300;
     margin-bottom: 15px;
 }
+
+.programs__button {
+    background-color: #23c93c;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: solid;
+}
