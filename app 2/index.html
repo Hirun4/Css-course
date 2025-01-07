@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODAY News - Layout Examples</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- 1. Flex - Header Navigation -->
+    <header class="header">
+      <nav class="header-nav">
+        <div class="header-logo">TODAY</div>
+        <div class="header-links">
+          <a href="#">Home</a>
+          <a href="#">News</a>
+          <a href="#">Gallery</a>
+          <a href="#">Articles</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 2. Flex and Column - Featured Article -->
+      <section class="featured container">
+        <div class="featured-image">
+          <img src="images/main-image.jpg" alt="Featured News" />
+        </div>
+        <div class="featured-content">
+          <h2>Moment Obama raps Eminem's Lose Yourself at Detroit rally</h2>
+          <p>
+            Eminemm has introduced former US President Barack Obama at a
+            presidential campaign rally in Detroit. "I have done a lot of
+            rallies, so I dont usually get nervous", Mr Obama said. "But I was
+            feeling some kind of way following the last four years," he added.
+            The former president also said he was "honoured" to be asked to
+            perform at the event.
+          </p>
+          <div class="featured-footer">
+            <button href="#" class="featured-more">Read More</button>
+            <span class="featured-time">2 min read</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Flex/Grid List - Latest Cards without text overlay -->
+      <section class="latest">
+        <div class="container">
+          <h2 class="latest-title">US Election 2024</h2>
+          <p class="latest-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            quos.
+          </p>
+          <div class="latest-list">
+            <article class="latest-card">
+              <img src="images/image2.jpg" alt="News Image" />
+              <div class="latest-content">
+                <h3>Trump Claims Historic Victory</h3>
+                <p>Former president addresses supporters after primary win.</p>
+                <a href="#" class="latest-more">Read More</a>
+              </div>
+            </article>
+            <article class="latest-card">
+              <img src="images/image3.jpg" alt="News Image" />
+              <div class="latest-content">
+                <h3>Harris Rally Draws Crowds</h3>
+                <p>Vice President campaigns in key battleground state.</p>
+                <a href="#" class="latest-more">Read More</a>
+              </div>
+            </article>
+            <article class="latest-card">
+              <img src="images/image4.jpg" alt="News Image" />
+              <div class="latest-content">
+                <h3>Record Turnout Expected</h3>
+                <p>Analysts predict historic voter participation.</p>
+                <a href="#" class="latest-more">Read More</a>
+              </div>
+            </article>
+            <article class="latest-card">
+              <img src="images/image5.jpg" alt="News Image" />
+              <div class="latest-content">
+                <h3>Debate Night Highlights</h3>
+                <p>Key moments from last night's presidential debate.</p>
+                <a href="#" class="latest-more">Read More</a>
+              </div>
+            </article>
+            <article class="latest-card">
+              <img src="images/image6.jpg" alt="News Image" />
+              <div class="latest-content">
+                <h3>Latest Poll Numbers</h3>
+                <p>New polling shows tight race in swing states.</p>
+                <a href="#" class="latest-more">Read More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4a. Flex/Grid 2D - Hot News - Flex Version -->
+      <!-- <section class="hot">
+        <div class="container">
+          <h2 class="hot-title">Explore the Hot News</h2>
+          <p class="hot-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            quos.
+          </p>
+          <div class="hot-flex">
+            <article class="hot-card hot-left">
+              <img src="images/image4.jpg" alt="Breaking News" />
+              <div class="hot-overlay">Breaking News</div>
+            </article>
+
+            <div class="hot-right">
+              <div class="hot-right-inner">
+                <article class="hot-card">
+                  <img src="images/image8.jpg" alt="Economy Update" />
+                  <div class="hot-overlay">Economy</div>
+                </article>
+                <article class="hot-card">
+                  <img src="images/image9.jpg" alt="Technology News" />
+                  <div class="hot-overlay">Technology</div>
+                </article>
+              </div>
+              <article class="hot-card">
+                <img src="images/image10.jpg" alt="World News" />
+                <div class="hot-overlay">World</div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- 4b. Flex/Grid 2D - Hot News - Grid Version -->
+      <section class="hot">
+        <div class="container">
+          <h2 class="hot-title">Explore the Hot News</h2>
+          <p class="hot-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            quos.
+          </p>
+          <div class="hot-grid">
+            <article class="hot-card hot-grid-1">
+              <img src="images/image4.jpg" alt="Breaking News" />
+              <div class="hot-overlay">Breaking News</div>
+            </article>
+            <article class="hot-card hot-grid-2">
+              <img src="images/image8.jpg" alt="Economy Update" />
+              <div class="hot-overlay">Economy</div>
+            </article>
+            <article class="hot-card hot-grid-3">
+              <img src="images/image9.jpg" alt="Technology News" />
+              <div class="hot-overlay">Technology</div>
+            </article>
+            <article class="hot-card hot-grid-4">
+              <img src="images/image10.jpg" alt="World News" />
+              <div class="hot-overlay">World</div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Grid Auto - Masonry Layout -->
+      <section class="masonry">
+        <div class="container">
+          <h2>Quam id erat consectetur</h2>
+          <p class="masonry-subtitle">
+            At tortor scelerisque neque tempor purus morbi.
+          </p>
+          <div class="masonry-grid">
+            <div class="masonry-item item1">
+              <img src="images/image4.jpg" alt="Masonry Image 1" />
+            </div>
+            <div class="masonry-item item2">
+              <img src="images/image18.jpg" alt="Masonry Image 2" />
+            </div>
+            <div class="masonry-item item3">
+              <img src="images/image13.jpg" alt="Masonry Image 3" />
+            </div>
+            <div class="masonry-item item4">
+              <img src="images/image14.jpg" alt="Masonry Image 4" />
+            </div>
+            <div class="masonry-item item5">
+              <img src="images/image15.jpg" alt="Masonry Image 5" />
+            </div>
+            <div class="masonry-item item6">
+              <img src="images/image5.jpg" alt="Masonry Image 6" />
+            </div>
+            <div class="masonry-item item7">
+              <img src="images/image17.jpg" alt="Masonry Image 7" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Grid Templates - News Gallery -->
+      <section class="gallery">
+        <div class="container">
+          <h2 class="gallery-title">News Gallery</h2>
+          <p class="gallery-subtitle">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            quos.
+          </p>
+          <div class="gallery-grid">
+            <div class="gallery-item a">
+              <img src="images/image10.jpg" alt="Gallery Image 1" />
+            </div>
+            <div class="gallery-item b">
+              <img src="images/image17.jpg" alt="Gallery Image 2" />
+            </div>
+            <div class="gallery-item c">
+              <img src="images/image14.jpg" alt="Gallery Image 3" />
+            </div>
+            <div class="gallery-item d">
+              <img src="images/image15.jpg" alt="Gallery Image 4" />
+            </div>
+            <div class="gallery-item e">
+              <img src="images/image25.jpg" alt="Gallery Image 5" />
+            </div>
+            <div class="gallery-item f">
+              <img src="images/image11.jpg" alt="Gallery Image 6" />
+            </div>
+            <div class="gallery-item g">
+              <img src="images/image16.jpg" alt="Gallery Image 7" />
+            </div>
+            <div class="gallery-item h">
+              <img src="images/image17.jpg" alt="Gallery Image 8" />
+            </div>
+            <div class="gallery-item i">
+              <img src="images/image18.jpg" alt="Gallery Image 9" />
+            </div>
+            <div class="gallery-item j">
+              <img src="images/image19.jpg" alt="Gallery Image 10" />
+            </div>
+            <div class="gallery-item k">
+              <img src="images/image20.jpg" alt="Gallery Image 11" />
+            </div>
+            <div class="gallery-item l">
+              <img src="images/image21.jpg" alt="Gallery Image 12" />
+            </div>
+            <div class="gallery-item m">
+              <img src="images/image22.jpg" alt="Gallery Image 13" />
+            </div>
+            <div class="gallery-item n">
+              <img src="images/image23.jpg" alt="Gallery Image 14" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Today. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
