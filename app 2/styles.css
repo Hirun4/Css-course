@@ -8,3 +8,11 @@ body {
     font-family: Arial,sans-serif;
     line-height: 1.6;
 }
+
+section {
+    padding: 6rem 0;
+}
+
+section h2 {
+    margin-bottom: 2rem;
+}
